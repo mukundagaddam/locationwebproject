@@ -1,0 +1,11 @@
+ create database projectdb;
+ 
+ use projectdb;
+ 
+ create table location (
+ id int primary key,
+ code varchar(20),
+ name varchar(20),
+ type varchar(20));
+ 
+ elect * from location;
